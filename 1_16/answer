@@ -1,0 +1,3 @@
+https://static-html-nginx.onrender.com 
+
+I published a Docker image of a static HTML page served by nginx on Render. The image was built from the exercise 1.15 and pushed to Docker Hub, and Render runs a container from it on a free plan.
