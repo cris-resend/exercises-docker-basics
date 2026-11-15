@@ -1,2 +1,2 @@
-docker build . -t 1_12
-docker run -p 5001:5001 1_12
+docker build . -t frontend
+docker run -p 5001:5001 frontend
