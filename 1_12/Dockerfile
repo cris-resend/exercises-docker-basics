@@ -1,6 +1,10 @@
-FROM node:16
+FROM ubuntu:latest
 
 WORKDIR /usr/src/app
+
+RUN apt-get update && apt-get install curl -y
+
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash && apt-get install nodejs -y
 
 COPY . .
 
